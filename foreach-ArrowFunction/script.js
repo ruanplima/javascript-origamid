@@ -1,18 +1,16 @@
 // Mostre no console cada parágrado do site
-const paragrafos = document.querySelectorAll('p')
-console.log(paragrafos)
+const paragrafo = document.querySelectorAll('p')
+console.log(paragrafo)
 
-paragrafos.forEach((i) => {
-    console.log(i)
+paragrafo.forEach((item, index) => {
+  console.log(item.innerText, index)
 })
 
 // Mostre o texto dos parágrafos no console
-paragrafos.forEach((i) => {
-    console.log(i.innerText)
-})
-
 
 // Como corrigir os erros abaixo:
+
+
 const imgs = document.querySelectorAll('img');
 
 imgs.forEach((item, index) => {
